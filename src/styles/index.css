@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", serif;
+
+
+  /* COLORS */
+  /* MAIN */
+  --purple: #B218FF;
+  --blue: #0081FB;
+  --purple-50: #b218ff80;
+  --blue-50: #0081FB80;
+  /* BACKGROUND */
+  --white: #FFFFFF;
+  --white-blue: #F5FAFE;
+  /* TEXT */
+  --primary: #101010;
+  --secondary: #4a4a4a;
+  --black: #000000;
+
+  /* FONT-SIZE */
+  --title: 64;
+  --subtitle: 24;
+  --text: 18
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  background-color: #F5FAFE;
+}
+
+
+/* MY OWN TAILWIND LOL */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jcenter {
+  justify-content: center;
+}
+
+.jstart {
+  justify-content: flex-start;
+}
+
+.jend {
+  justify-content: flex-end;
+}
+
+.jbetween {
+  justify-content: space-between;
+}
+
+.jaround {
+  justify-content: space-around;
+}
+
+.acenter {
+  align-items: center;
+}
+
+.astart {
+  align-items: flex-start;
+}
+
+.aend {
+  align-items: flex-end;
+}
+
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+}''
