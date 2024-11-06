@@ -1,46 +1,46 @@
 .btn_animated {
-	display: block;
-	width: auto;
-	height: auto;
-	padding: 2px 20px;
-	line-height: 40px;
-	font-size: var(--text);
-	text-decoration: none;
-	color: var(--secondary);
-	font-weight: 600;
-	border: 2px solid var(--secondary);
-	text-align: center;
-	position: relative;
-	overflow: hidden;
-	border-radius: 360px;
-	transition: all .35s;
+  display: block;
+  width: auto;
+  height: auto;
+  padding: 2px 20px;
+  line-height: 40px;
+  font-size: var(--text);
+  text-decoration: none;
+  color: var(--secondary);
+  font-weight: 600;
+  border: 2px solid var(--secondary);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 360px;
+  transition: all 0.35s;
 }
 
 .btn_animated span {
-	position: relative;
-	z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .btn_animated:after {
-	position: absolute;
-	content: "";
-	top: 50%;
-	left: 50%;
-	width: 0;
-	height: 0;
-	background: -webkit-linear-gradient(-205deg, var(--purple), var(--blue));
-	transition: all .35s;
-	transform: translate(-50%, -50%); 
-	border-radius: 100%;
-	z-index: 1;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: -webkit-linear-gradient(-205deg, var(--purple), var(--blue));
+  transition: all 0.35s;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  z-index: 1;
 }
 
 .btn_animated:hover {
-	color: #fff;
-	border: 2px solid var(--background);
+  color: #fff;
+  border: 2px solid var(--background);
 }
 
 .btn_animated:hover:after {
-	width: 100%; /* Expand outward from the center */
-	height: 500%;
+  width: 100%; /* Expand outward from the center */
+  height: 500%;
 }
