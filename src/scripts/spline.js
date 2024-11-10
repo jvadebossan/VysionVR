@@ -1,4 +1,12 @@
-window.onload = function () {
-    var shadowRoot = document.querySelector('spline-viewer').shadowRoot;
-    shadowRoot.querySelector('#logo').remove();
+function removeLogo() {
+  var shadowRoot = document.querySelectorAll("spline-viewer");
+  for (var i = 0; i < shadowRoot.length; i++) {
+    var logo = shadowRoot[i].shadowRoot.querySelector("#logo");
+    console.log(logo);
+    logo.remove();
+  }
 }
+
+window.onload = function () {
+  removeLogo();
+};

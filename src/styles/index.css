@@ -196,7 +196,7 @@ main {
   color: var(--purple);
 }
 
-.card .title {
+.title {
   font-size: var(--subtitle);
   margin-bottom: 20px;
   text-wrap: wrap;
@@ -208,7 +208,56 @@ main {
   font-size: 30px;
 }
 
-.card .description {
+.description {
   color: var(--secondary);
   font-size: var(--text);
+}
+
+/* CONTENT */
+.content {
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  margin: 80px 0px;
+}
+
+.content .building {
+  width: 50%;
+  height: 100%;
+}
+
+.content .img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.contentBlock {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+}
+.contentBlock .title {
+  margin-left: 0px;
+  color: var(--purple);
+  margin-bottom: 15px;
+}
+
+.contentBlock .description {
+  margin-left: 0px;
+}
+
+.contentList {
+  color: var(--purple);
+  padding-left: 18px;
+  margin-top: 30px;
+}
+
+.contentList li {
+  padding: 10px 0px;
+}
+
+/* CAROUSEL */
+.carousel {
+  width: 100%;
+  min-height: 200vh;
 }

@@ -21,7 +21,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <script src="./src/scripts/spline.js"></script>
     <link rel="stylesheet" href="./src/styles/index.css" />
     <link rel="stylesheet" href="./src/styles/button.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -93,7 +92,7 @@
               <h2 class="title">Acelere Suas Vendas</h2>
             </div>
             <p class="description">
-              ossa tecnologia VR acelera o processo de vendas, oferecendo aos
+              Nossa tecnologia VR acelera o processo de vendas, oferecendo aos
               clientes confiança ao visualizar e personalizar imóveis. Esse
               diferencial reduz o ciclo de vendas e melhora o retorno sobre o
               investimento.
@@ -112,7 +111,32 @@
           </div>
         </div>
       </section>
+      <section class="content container row jbetween acenter">
+        <div class="building">
+          <spline-viewer
+            class="img"
+            url="https://prod.spline.design/ns346YfuiRHPXPe5/scene.splinecode"
+          ></spline-viewer>
+        </div>
+        <div class="contentBlock column jstart astart">
+          <h2 class="title">TEXTO AQUI EXPLICANDO SOBRE A ULTRA REALIDADE</h2>
+          <p class="description">
+            A nossa tecnologia de imersão avançada permite a visualização
+            precisa e interativa em ambientes virtuais. Utilizando tecnologia VR
+            de alta definição, ela proporciona uma experiência imersiva e
+            próxima do real, ideal para setores como arquitetura e construção.
+          </p>
+          <ul class="contentList">
+            <li>Experiência imersiva</li>
+            <li>Personalização em tempo real</li>
+            <li>Tomada de decisão segura</li>
+            <li>Redução de custos</li>
+          </ul>
+        </div>
+      </section>
+      <section class="carousel"></section>
     </main>
     <!-- <spline-viewer class="wellcome" url="https://prod.spline.design/RD-rPcBAh-oSYF0s/scene.splinecode"></spline-viewer> -->
+    <script src="./src/scripts/spline.js"></script>
   </body>
 </html>
