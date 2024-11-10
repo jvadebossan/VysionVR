@@ -201,6 +201,9 @@ main {
   margin-bottom: 20px;
   text-wrap: wrap;
   max-width: 90%;
+}
+
+.card .title {
   margin-left: 10px;
 }
 
@@ -231,33 +234,44 @@ main {
   height: 100% !important;
 }
 
-.contentBlock {
+.content_block {
   width: 50%;
   height: 100%;
   text-align: left;
 }
-.contentBlock .title {
+.content_block .title {
   margin-left: 0px;
   color: var(--purple);
   margin-bottom: 15px;
 }
 
-.contentBlock .description {
+.content_block .description {
   margin-left: 0px;
 }
 
-.contentList {
+.content_list {
   color: var(--purple);
   padding-left: 18px;
   margin-top: 30px;
 }
 
-.contentList li {
+.content_list li {
   padding: 10px 0px;
 }
 
 /* CAROUSEL */
 .carousel {
   width: 100%;
-  min-height: 200vh;
+  height: auto;
+}
+
+.carousel_box {
+  width: 100%;
+  padding: 0px 85px;
+}
+
+.carousel_item {
+  width: 500px;
+  padding: 0px 15px;
+  border-radius: 0px;
 }
