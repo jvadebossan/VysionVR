@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $(".carousel_box").slick({
     dots: false,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
