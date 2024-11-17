@@ -9,5 +9,13 @@ $(document).ready(function () {
     autoplay: true,
     autoplaySpeed: 2000,
     draggable: true,
+    responsive: [
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 });
